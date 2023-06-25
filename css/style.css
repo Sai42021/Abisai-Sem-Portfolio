@@ -54,14 +54,14 @@ p {
 }
 
 h1, h2 {
-  color: #FF9000;;
+  color: #FF9000;
   font-family: "Futura PT", sans-serif;
   font-weight: 800;
   margin: 0 0 20px 0;
 }
 
 h3, h4, h5, h6, figure {
-  color: #FF9000;;
+  color: #FF9000;
   font-family: "Futura PT", sans-serif;
   font-weight: 600;
   margin: 0 0 20px 0;
@@ -553,6 +553,24 @@ button:hover, a:hover {
 .portfolio-section li{
   padding-left: 10%;
   text-align: left;
+}
+
+/*For thumbnail buttons in webdev page*/
+.outer-link-button button {
+  text-align: left;
+  color: #FF9000;
+}
+
+/*For image thubmnails in web dev page*/
+.skill-lync-section img,
+.galleria img,
+.capricorn-hackathon img,
+.portfolio-section img{
+  border-radius: 30px;
+}
+
+#skill-lync-team-img {
+  border-radius: 0px;
 }
 
 /*More projects, Going forward*/
