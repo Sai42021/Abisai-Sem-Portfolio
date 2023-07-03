@@ -475,7 +475,7 @@ button:hover, a:hover {
 .quotopia-section,
 .skill-lync-section,
 .galleria, 
-.capricorn-hackathon,
+.catalogue,
 .portfolio-section{
   padding: 7%;
 }
@@ -487,7 +487,7 @@ button:hover, a:hover {
 .quotopia-section p,h3,
 .skill-lync-section p, h3,
 .galleria p, h3,
-.capricorn-hackathon p, h3,
+.catalogue p, h3,
 .portfolio-section p, h3{
   padding-top: 5%;
   padding-left: 10%;
@@ -501,7 +501,7 @@ button:hover, a:hover {
 .quotopia-section .row,
 .skill-lync-section .row,
 .galleria .row, 
-.capricorn-hackathon .row,
+.catalogue .row,
 .portfolio-section .row{
   padding-bottom: 5%;
 }
@@ -513,7 +513,7 @@ button:hover, a:hover {
 .quotopia-section img:hover a:hover,
 .skill-lync-section img:hover a:hover,
 .galleria img:hover a:hover,
-.capricorn-hackathon img:hover a:hover,
+.catalogue img:hover a:hover,
 .portfolio-section img:hover a:hover{
   opacity: 0.7;
 }
@@ -525,7 +525,7 @@ button:hover, a:hover {
 .quotopia-section img,
 .skill-lync-section img,
 .galleria img,
-.capricorn-hackathon img,
+.catalogue img,
 .portfolio-section img{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
@@ -535,7 +535,7 @@ button:hover, a:hover {
 .prime-number-checker img,
 .skill-lync-section img,
 .galleria img,
-.capricorn-hackathon img,
+.catalogue img,
 .portfolio-section img{
   width: 100%;
   height: 100%;
@@ -549,7 +549,7 @@ button:hover, a:hover {
 .quotopia-section li, 
 .skill-lync-section li,
 .galleria li,
-.capricorn-hackathon li,
+.catalogue li,
 .portfolio-section li{
   padding-left: 10%;
   text-align: left;
@@ -564,7 +564,7 @@ button:hover, a:hover {
 /*For image thubmnails in web dev page*/
 .skill-lync-section img,
 .galleria img,
-.capricorn-hackathon img,
+.catalogue img,
 .portfolio-section img{
   border-radius: 30px;
 }
