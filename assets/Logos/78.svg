@@ -1,0 +1,5 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M200 0H133.333V66.6667H200V0Z" fill="black"/>
+<path d="M66.6666 66.6666L133.333 66.6667L133.333 133.333H66.6666V66.6666Z" fill="black"/>
+<path d="M0 133.333L66.6666 133.333L66.6667 200H0V133.333Z" fill="black"/>
+</svg>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi 👋</title>
+    <link rel="icon" href="assets/Logos/Logo.sem-3.png" type="image/x-icon" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/cursor.scss">
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <!--JQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Didact+Gothic" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <!--smooth cursor-->
+    <div id="cursor" class="cursor">
+        <div class="ring">
+            <div><!--Border--></div>
+        </div>
+        <div class="ring">
+            <div><!--Pointer--></div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="assets/Logos/Logo.sem-4-removebg-preview.png" width="96" height="auto"
+                    class="d-inline-block align-top" alt="logo">
+            </a>
+
+            <div id="preloader" class="preloader">
+                <div class="loader" id="loader"></div>
+            </div>
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0" id="primary">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.linkedin.com/in/abisai-sem-351879271/" target="_blank">Connect</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <section class="intro" id="main-content">
+        <div class="container">
+            <div class="row">
+                <h1>Hey, <br>I’m Abisai</h1>
+
+                <div class="text-box">
+                    <div class="slide-show">
+                        <p>
+                            — A dynamic and enthusiastic final-year Computer Science student at the Namibia University of Science and
+                            Technology (NUST)
+                            <img src="assets/Icons/Wave.png" alt="wave">
+                        </p>
+                    </div>
+                    <div class="slide-show">
+                        <p>
+                            — A Frontend developer, product designer and Robotic Process Autmation specialist from Namibia
+                            <img src="assets/Icons/flag.png" alt="\">
+                        </p>
+                    </div>
+                    <div class="slide-show">
+                        <p>
+                            — A cinephile and bookworm whose favorite books include The Art of Seduction, The 48 Laws of Power, and Burning
+                            <img src="assets/Icons/nerd.png" alt="nerd emoji">
+                            <img src="assets/Icons/fire.png" alt="flame emoji">
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row social-icons">
+                <ul>
+                    <li>
+                        <a href="http://api.whatsapp.com/send?phone=264816270555" target="_blank"><i class="fab fa-whatsapp icon"></i> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/abisai-sem-351879271/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:a.sam@schoemans.com.na"><i class="fas fa-envelope icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/cosmonaut_sai/" target="_blank"><i class="fab fa-instagram icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row" id="about-header">
+                <h1><img class="img-fluid" src="assets/Icons/Vector.png" alt="vector"> About Me <img class="img-fluid" src="assets/Icons/Vector.png" alt="vector"></h1>
+            </div>
+
+            <div class="row" id="about-content">
+                <div class="about-img col-md">
+                    <img class="img-fluid" src="assets/Images/Pro-pic07 (1).png" alt="an image of Sem">
+                </div>
+                <div class="about-text col-md">
+                    <h2>Who am I?</h2>
+                    <h5>I am Abisai Sem, a 22-year-old native of Tsumeb, Namibia. I left my home town behind to pursue a career in Computer Science.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="attributes">
+        <div class="my-container">
+            <h1 class="text">I<span>PUNCTUAL</span></h1>
+            <h1 class="text">PRIDE<span>HONEST</span></h1>
+            <h1 class="text">MYSELF<span>PEDANTIC</span></h1>
+            <h1 class="text">ON MY<span>ATTENTIVE</span></h1>
+            <h1 class="text">DRIVE<span>CONFIDENT</span></span></h1>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row" id="services-header">
+                <h1><img class="img-fluid" src="assets/Icons/Vector.png" alt="vector"> Services <img class="img-fluid" src="assets/Icons/Vector.png" alt="vector"></h1>
+            </div>
+
+            <div class="row">
+                <div class="bring-to-table col-md">
+                    <h2>What I bring to the table</h2>
+                    <h5>I am a connoisseur of the exquisite art of crafting digital solutions, meticulously honing my skills to exalt and
+                    adorn businesses and individual endeavors with an aura of sophistication and allure.</h5>
+                    <br>
+                    <h5>And my vocabulary is unmatched, so mind me while I flex <img src="assets/Icons/flex.png" alt="flexing arm"> <img src="assets/Icons/cool.png" alt="flexing arm"</h5>
+                </div>
+
+                <div class="skills col-md">
+                    <ul>
+                        <li>Robotic Process Automation</li>
+                        <li>Frontend Web Dev</li>
+                        <li>Product Design</li>
+                        <li>Branding</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-mobile">
+        <div class="container">
+                <div class="skills-secondary col-md">
+                    <div class="content-slider">
+                        <div class="slider">
+                            <div class="mask">
+                                <ul>
+                                    <li class="anim1">
+                                        <div class="quote"><img src="assets/Icons/Vector-star.png" alt="star"> R.P.A <img
+                                                src="assets/Icons/Vector-star.png" alt="star"></div>
+                                    </li>
+                                    <li class="anim2">
+                                        <div class="quote"><img src="assets/Icons/Vector-star.png" alt="star"> Frontend Web Dev <img
+                                                src="assets/Icons/Vector-star.png" alt="star"></div>
+                                    </li>
+                                    <li class="anim3">
+                                        <div class="quote"><img src="assets/Icons/Vector-star.png" alt="star"> Product Design <img
+                                                src="assets/Icons/Vector-star.png" alt="star"></div>
+                                    </li>
+                                    <li class="anim4">
+                                        <div class="quote"><img src="assets/Icons/Vector-star.png" alt="star"> Branding <img
+                                                src="assets/Icons/Vector-star.png" alt="star"></div>
+                                    </li>
+                                    <li class="anim5">
+                                        <div class="quote"><img src="assets/Icons/Vector-star.png" alt="star"> Prototyping <img
+                                                src="assets/Icons/Vector-star.png" alt="star"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+    <section class="toolkit">
+        <div class="container">
+            <div class="row">
+                <div class="tool-kit-text col-md">
+                    <h2>My digital toolkit</h2>
+                    <h5>“I don't have money. But what I do have are a very particular set of skills, skills I have acquired over a very long
+                    career”</h5>
+                    <br>
+                    <h5>While my tenure may not rival that of Bryan Mills', I have tirelessly refined and perfected my abilities to the utmost
+                    degree.</h5>
+                </div>
+
+                <div class="toolkit-carousel col-md">
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                                <img src="assets/Icons/bootstrap.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/CSS.png"
+                                    alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/figma.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/UiPath.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/html.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/JS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/react.png" alt="">
+                            </div>
+                           
+                            <div class="slide">
+                                <img src="assets/Icons/CSS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/OpenBots.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/figma.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/html.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/UiPath.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/react.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/JS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/bootstrap.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-track" id="slide-track-reverse">
+                            <div class="slide">
+                                <img src="assets/Icons/react.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/OpenBots.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/JS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/html.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/UiPath.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/figma.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/CSS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/bootstrap.png" alt="">
+                            </div>
+
+                            <div class="slide">
+                                <img src="assets/Icons/JS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/figma.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/UiPath.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/bootstrap.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/html.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/CSS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/react.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="container">
+            <div class="row" id="work-header">
+                <h1><img class="img-fluid" src="assets/Icons/Vector.png" alt="vector"> Work <img class="img-fluid" src="assets/Icons/Vector.png" alt="vector"></h1>
+            </div>
+
+            <div class="row project-demos">
+                <ul class="rig-primary" id="rig">
+                    <li>
+                        <a class="rig-cell" href="https://sai42021.github.io/Skill-Lync/Home.html" target="_blank">
+                            <img class="rig-img" src="assets/Images/Skill Lync.png">
+                            <span class="rig-overlay" id="rig-overlay-skill-lync"></span>
+                            <span class="rig-text" id="rig-text-skill-lync"><h3>Skill-Lync</h3><br><p>Web dev • Database</p></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rig-cell" href="https://sai42021.github.io/Everything-Food-Science/index_2.html" target="_blank">
+                            <img class="rig-img" src="assets/Images/Everything Food Science.png">
+                            <span class="rig-overlay" id="rig-overlay-food"></span>
+                            <span class="rig-text" id="rig-text-food"><h3>Everything Food Science</h3><br><p>Web dev • Product Design</p></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="rig-secondary" id="rig">
+                    <li>
+                        <a class="rig-cell" href="#">
+                            <img class="rig-img" src="assets/Images/Organic Neem.png">
+                            <span class="rig-overlay" id="rig-overlay-Neem"></span>
+                            <span class="rig-text" id="rig-text-Neem"><h3>Organic Neem</h3><br><p>Product Design</p></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rig-cell" href="https://sai42021.github.io/Catalogue/Home.html" target="_blank">
+                            <img class="rig-img" src="assets/Images/Catalogue.png">
+                            <span class="rig-overlay" id="rig-overlay-catalogue"></span>
+                            <span class="rig-text" id="rig-text-catalogue"><h3>Catalogue</h3><br><p>Web dev • Product Design • Database</p></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <section class="">
+                <div class="row">
+                    <img src="assets/Logos/Logo.sem-3-removebg-preview.png" alt="logo">
+                </div>
+                <div class="thanks-msg row">
+                    <h3>Thanks for visiting <br>
+                    my portfolio</h3>
+                </div>
+            </section>
+    
+            <hr class="my-3">
+    
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2024 Abisai Sem. All Rights Reserved. Designed by
+                            <a class="text-white" href="https://www.linkedin.com/in/abisai-sem-351879271/" target="_blank">AbisaiSem</a>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Whatsapp -->
+                        <a href="http://api.whatsapp.com/send?phone=264816270555" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-whatsapp icon"></i></a>
+    
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/abisai-sem-351879271/" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-linkedin-in icon"></i></a>
+    
+                        <!-- Email -->
+                        <a href="mailto:a.sam@schoemans.com.na" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fas fa-envelope icone"></i></a>
+    
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/cosmonaut_sai/" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-instagram icon"></i></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+            <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+
+    <!-- js -->
+    <script src="js/scripts.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+
+    <script>
+        // attributes section - INCLUDED HERE DUE TO GSAP
+            gsap.registerPlugin(ScrollTrigger);
+
+            const textElements = gsap.utils.toArray('.text');
+
+            textElements.forEach(text => {
+                gsap.to(text, {
+                    backgroundSize: '100%',
+                    ease: 'none',
+                    scrollTrigger: {
+                        trigger: text,
+                        start: 'center 80%',
+                        end: 'center 20%',
+                        scrub: true,
+                    },
+                });
+            });
+    </script>
+</body>
+</html>
