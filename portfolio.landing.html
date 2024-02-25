@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Didact+Gothic" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -39,81 +40,91 @@
     </div>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="assets/Logos/Logo.sem-4-removebg-preview.png" width="96" height="auto"
-                    class="d-inline-block align-top" alt="logo">
-            </a>
-
-            <div id="preloader" class="preloader">
-                <div class="loader" id="loader"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/Logos/Logo.sem-4-removebg-preview.png" width="56" height="auto"
+                            class="d-inline-block align-top" alt="logo">
+                    </a>
+                
+                    <div id="preloader" class="preloader">
+                        <div class="loader" id="loader"></div>
+                    </div>
+                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0" id="primary">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#work">Work</a>
+                            </li>
+                
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://www.linkedin.com/in/abisai-sem-351879271/" target="_blank">Connect</a>
+                            </li>
+                
+                        </ul>
+                    </div>
+                
+                
+                </nav>
             </div>
-           
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0" id="primary">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.linkedin.com/in/abisai-sem-351879271/" target="_blank">Connect</a>
-                    </li>
-                    
-                </ul>
-            </div>
-
-
-        </nav>
+        </div>
     </header>
 
     <section class="intro" id="main-content">
         <div class="container">
-            <div class="row">
-                <h1>Hey, <br>I’m Abisai</h1>
+            <div class="row col-md">
+                <div class="row col-md">
+                    <h1>Hey. I’m Sai,</h1>
 
-                <div class="text-box">
-                    <div class="slide-show">
-                        <p>
-                            I'm a final-year Computer Science student at NUST
-                            <img src="assets/Icons/Wave.png" alt="wave">
-                        </p>
-                    </div>
-                    <div class="slide-show">
-                        <p>
-                            I develop elevating websites through coding 
-                        </p>
-                    </div>
-                    <div class="slide-show">
-                        <p>
-                            I possess proficiency in product design
-                        </p>
-                    </div>
-                    <div class="slide-show">
-                        <p>
-                            I dabble in Robotic Process Autmation
-                        </p>
-                    </div>
-                    <div class="slide-show">
-                        <p>
-                            My favourite book is 'Burning' <img src="assets/Icons/fire.png" alt="flame emoji">
-                            <img src="assets/Icons/fire.png" alt="flame emoji">
-                        </p>
+                    <div class="intro-content-slider">
+                        <div class="intro-slider">
+                            <div class="intro-mask">
+                                <ul>
+                                    <li class="intro-anim1">
+                                        <div class="intro-quote">Final-year Computer Science student at NUST <img src="assets/Icons/flag.png" alt="wave"></div>
+                                    </li>
+                                    <li class="intro-anim2">
+                                        <div class="intro-quote">I develop elevating websites through coding <img src="assets/Icons/pc.png" alt="pc"></div>
+                                    </li>
+                                    <li class="intro-anim3">
+                                        <div class="intro-quote">I am a proud cinephile <img src="assets/Icons/video_camera.png" alt="smiley"></div>
+                                    </li>
+                                    <li class="intro-anim4">
+                                        <div class="intro-quote">I dabble in Robotic Process Automation <img src="assets/Icons/wrench_hammer.png" alt="wrench & hammer"></div>
+                                    </li>
+                                    <li class="intro-anim5">
+                                        <div class="intro-quote">My favourite book is Burning <img src="assets/Icons/fire.png" alt="flame emoji"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <div class="row col-md welcome-message" style="padding-left: 60px;" id="vertical-border">
+                    <h5>Welcome to my portfolio.</h5>
+                    <p class="intro-info-box">
+                        I am a skilled web developer located in Windhoek, Namibia, with a strong proficiency in product design.
+                        <br>
+                        Currently, I am interning as an RPA (Robotic Process Automation) specialist at Schoemans. I am also actively seeking
+                        part-time opportunities in Front-end web development.
+                    </p>
+                    <h6>It's a plessure to meet you, feel free to explore some of my work below!</h6>
+                </div>
             </div>
 
             <div class="row social-icons">
@@ -146,8 +157,25 @@
                     <img class="img-fluid" src="assets/Images/Pro-pic07 (1).png" alt="an image of Sem">
                 </div>
                 <div class="about-text col-md">
-                    <h2>Who am I?</h2>
-                    <h5>I am Abisai Sem, a 22-year-old native of Tsumeb, Namibia. I left my home town behind to pursue a career in Computer Science.</h5>
+                    <h2>Hello, my name is Abisai, but you can <i>call me Sai</i></h2>
+                    <h5>That's a nickname I gave myself when I first moved to Windhoek to study computer science at the Namibia University of
+                    Science and Technology.</h5>
+                    <br>
+                    <h5>As a "newbie" to city life, it was really hard to adjust to my new surroundings at first. I quickly made new friends and
+                    pushed hard with my academics, although it certainly wasn't and still isn't easy.</h5>
+                    <br>
+                    <h5>My second year at NUST was when I first got introduced to web development via simple HTML, CSS, and JavaScript. I fell
+                    in love with the process of writing scripts and code to display elegant and transformative designs onto a web page or
+                    into mobile apps. I've honed in on design and development ever since, and it's a raging passion for me to this day.</h5>
+                    <br>
+                    <h5>When I'm not winning hackathons or burying my nose in books, I love watching films and catching up on some books by my
+                    favorite author Robert Greene. I find the 48 Laws of Power particularly enlightening.</h5>
+
+                    <!-- <div class="achievments col-md">
+                        <h4>Achievments <span style="margin-right:  66%;"></span> 001</h4>
+                        <hr>
+                    </div> -->
+
                 </div>
             </div>
         </div>
@@ -155,11 +183,11 @@
 
     <section class="attributes">
         <div class="my-container">
-            <h1 class="text">I<span>PUNCTUAL</span></h1>
-            <h1 class="text">PRIDE<span>HONEST</span></h1>
-            <h1 class="text">MYSELF<span>PEDANTIC</span></h1>
-            <h1 class="text">ON MY<span>ATTENTIVE</span></h1>
-            <h1 class="text">DRIVE<span>CONFIDENT</span></span></h1>
+            <h1 class="text">AND<span>HI,</span></h1>
+            <h1 class="text">HARD WORK<span>SAI</span></h1>
+            <h1 class="text">IS<span>IS</span></h1>
+            <h1 class="text">MY<span>MY</span></h1>
+            <h1 class="text">GAME<span>NAME</span></span></h1>
         </div>
     </section>
 
@@ -245,6 +273,9 @@
                                 <img src="assets/Icons/bootstrap.png" alt="">
                             </div>
                             <div class="slide">
+                                <img src="assets/Icons/github.png" alt="">
+                            </div>
+                            <div class="slide">
                                 <img src="assets/Icons/CSS.png"
                                     alt="">
                             </div>
@@ -258,12 +289,21 @@
                                 <img src="assets/Icons/html.png" alt="">
                             </div>
                             <div class="slide">
+                                <img src="assets/Icons/power.png" alt="">
+                            </div>
+                            <div class="slide">
                                 <img src="assets/Icons/JS.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/git.png" alt="">
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/react.png" alt="">
                             </div>
                            
+                            <div class="slide">
+                                <img src="assets/Icons/power.png" alt="">
+                            </div>
                             <div class="slide">
                                 <img src="assets/Icons/CSS.png" alt="">
                             </div>
@@ -272,6 +312,12 @@
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/figma.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/git.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/github.png" alt="">
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/html.png" alt="">
@@ -297,6 +343,12 @@
                                 <img src="assets/Icons/OpenBots.png" alt="">
                             </div>
                             <div class="slide">
+                                <img src="assets/Icons/github.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/git.png" alt="">
+                            </div>
+                            <div class="slide">
                                 <img src="assets/Icons/JS.png" alt="">
                             </div>
                             <div class="slide">
@@ -304,6 +356,9 @@
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/UiPath.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/power.png" alt="">
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/figma.png" alt="">
@@ -316,6 +371,9 @@
                             </div>
 
                             <div class="slide">
+                                <img src="assets/Icons/git.png" alt="">
+                            </div>
+                            <div class="slide">
                                 <img src="assets/Icons/JS.png" alt="">
                             </div>
                             <div class="slide">
@@ -329,6 +387,12 @@
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/html.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/github.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/Icons/power.png" alt="">
                             </div>
                             <div class="slide">
                                 <img src="assets/Icons/CSS.png" alt="">
