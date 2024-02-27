@@ -607,15 +607,15 @@ p {
   padding-left: -12%;
 }
 
-.achievments h4 {
+/* .achievments h4 {
   font-family: "Merriweather", serif;
-}
+} */
 
-.achievments {
+/* .achievments {
   margin-top: 5%;
   padding-top: 5%;
   text-align: left;
-}
+} */
 
 /*attributes section*/
 .attributes {
@@ -1225,7 +1225,18 @@ footer {
   }
 
   .social-icons ul {
-    padding-top: 14%;
+    padding-top: 27%;
+  }
+
+  /*about*/
+  .about h5 {
+    margin-left: -6%;
+    padding-left: -6%;
+  }
+
+  .about-text h2 {
+    margin-left: -6%;
+    padding-left: -6%;
   }
 
   /*work*/
