@@ -632,7 +632,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 180vh;
+  height: 200vh;
 }
 
 .text {
