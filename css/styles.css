@@ -240,23 +240,23 @@ html {
 }
 
 .intro-slider li.intro-anim1 {
-  animation: intro-cycle 15s linear infinite;
+  animation: intro-cycle 30s linear infinite;
 }
 
 .intro-slider li.intro-anim2 {
-  animation: intro-cycle2 15s linear infinite;
+  animation: intro-cycle2 30s linear infinite;
 }
 
 .intro-slider li.intro-anim3 {
-  animation: intro-cycle3 15s linear infinite;
+  animation: intro-cycle3 30s linear infinite;
 }
 
 .intro-slider li.intro-anim4 {
-  animation: intro-cycle4 15s linear infinite;
+  animation: intro-cycle4 30s linear infinite;
 }
 
 .intro-slider li.intro-anim5 {
-  animation: intro-cycle5 15s linear infinite;
+  animation: intro-cycle5 30s linear infinite;
 }
 
 .intro-slider:hover li {
@@ -605,6 +605,11 @@ p {
   font-family: "Merriweather", serif;
   margin-left: -12%;
   padding-left: -12%;
+}
+
+.about-img img {
+  width: auto;
+  height: 670px;
 }
 
 /* .achievments h4 {
@@ -1341,6 +1346,11 @@ footer {
   .cursor {
     display: none;
   }
+
+  .about-img img {
+    width: auto;
+    height: 500px;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -1434,6 +1444,11 @@ footer {
 
   .cursor {
     display: none;
+  }
+
+  .about-img img {
+    width: auto;
+    height: 500px;
   }
 
   /*about section*/
